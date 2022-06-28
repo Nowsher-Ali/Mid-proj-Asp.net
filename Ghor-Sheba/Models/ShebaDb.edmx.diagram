@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b0e1e85cb2f4dde82c77c6d37ff805c" Name="Diagram1">
+        <EntityTypeShape EntityType="ShebaDbModel.Booking_confirms" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Booking_details" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Booking" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Complaint" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Contact_Messages" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.LoginUser" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Review" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.service_provider_status" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShebaDbModel.Service" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <AssociationConnector Association="ShebaDbModel.FK_Booking_confirm_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_Booking_confirms_LoginUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_Booking_detail_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_Booking_detail_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_Booking_LoginUser" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_Review_LoginUser" ManuallyRouted="false" />
+        <AssociationConnector Association="ShebaDbModel.FK_service_provider_status_LoginUser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
